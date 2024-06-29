@@ -15,6 +15,7 @@ abstract class AppColors {
   static const Color blue = Color(0xff2899EB);
   static const Color orange = Color(0xffFFDF94);
   static const Color pink = Color(0xffFFDEDD);
+  static const Color lightGrey = Color(0xff5F5F5F);
 
   //product colors
   static const Color product0 = Color(0xffD4E5FF);

@@ -18,7 +18,7 @@ class SearchInput extends StatelessWidget {
           ),
         ],
       ),
-      height: AppDimens.inputHeight,
+      height: AppDimens.height60,
       child: const TextField(
         decoration: InputDecoration(
           hintText: "Искать в Malina",
@@ -27,7 +27,7 @@ class SearchInput extends StatelessWidget {
           fillColor: AppColors.white,
           border: OutlineInputBorder(
             borderSide: BorderSide.none,
-            borderRadius: BorderRadius.all(AppDimens.inputCircularBorderRadius),
+            borderRadius: BorderRadius.all(AppDimens.borderRadius12),
           ),
         ),
       ),

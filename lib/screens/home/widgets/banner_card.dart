@@ -21,12 +21,12 @@ class BannerCard extends StatelessWidget {
         Container(
           height: 170,
           padding: const EdgeInsets.only(
-            top: AppDimens.verticalPadding,
-            left: AppDimens.bigPadding,
+            top: AppDimens.indent22,
+            left: AppDimens.indent20,
           ),
           decoration: BoxDecoration(
             color: bgColor,
-            borderRadius: const BorderRadius.all(AppDimens.inputCircularBorderRadius),
+            borderRadius: const BorderRadius.all(AppDimens.borderRadius12),
           ),
           child: Row(
             children: [
@@ -50,7 +50,7 @@ class BannerCard extends StatelessWidget {
               ),
               const SizedBox(width: 10),
               ClipRRect(
-                borderRadius: const BorderRadius.all(AppDimens.inputCircularBorderRadius),
+                borderRadius: const BorderRadius.all(AppDimens.borderRadius12),
                 child: Image.asset(
                   imagePath,
                 ),
